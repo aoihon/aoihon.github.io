@@ -5,12 +5,73 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="author" content="aoihon" />
 <meta name="copyright" content="(c) 2016 A.A." />
-<meta name="keywords" lang="ja" xml:lang="ja" content="aoihon,青い本" />
-<meta name="description" lang="ja" xml:lang="ja" content="青い本が遊びで作成しているウェブサイト" />
-<title>青本</title>
-<link rel="stylesheet" type="text/css" href="./WebContent/stylesheets/normal.css" />
+<meta name="keywords" lang="ja" xml:lang="ja" content="aoihon,青い本,雑記サイト" />
+<meta name="description" lang="ja" xml:lang="ja" content="青い本が遊びで作成しているウェブサイト,雑記サイト" />
+<title>青い本</title>
+<link rel="stylesheet" type="text/css" href="./WebContent/stylesheets/base.css" />
+<link rel="stylesheet" type="text/css" href="./WebContent/stylesheets/header.css" />
+<link rel="stylesheet" type="text/css" href="./WebContent/stylesheets/footer.css" />
+<script type="text/javascript" src="./WebContent/javascript/jquery-3.1.0.min.js"></script>
+<script type="text/javascript" src="./WebContent/javascript/navigation.js"></script>
+
+<script type="text/javascript"><!--
+$(function(){
+	// js有効化推奨
+	document.getElementById("content-wrap").style.display="block";
+	document.getElementById("checkJS").style.display="none";
+
+	//コンテンツページの読み込み
+	$("#page-home").load("./WebContent/pages/home.html");
+	$("#page-drawing").load("./WebContent/pages/drawing.html");
+	$("#page-software").load("./WebContent/pages/software.html");
+	$("#page-other").load("./WebContent/pages/other.html");
+})
+// -->
+</script>
+
 </head>
-<body>
-<h1>Hello World</h1>
+
+<body oncopy="return false;" ontouchstart="return false;" onmousedown="return false;" oncontextmenu="return false">
+<div id="checkJS">
+<h1>JavaScriptを有効にしてね！</h1>
+</div>
+<div id="content-wrap" style="display: none;">
+	<!-- メニューと背景画像 -->
+	<div id="header-wrap">
+		<ul>
+			<li><a onclick="ChangeTab('tab-home');return false;" href="">Home</a></li>
+			<li><a onclick="ChangeTab('tab-drawing');return false;" href="">Drawing</a></li>
+			<li><a onclick="ChangeTab('tab-software');return false;" href="">Software</a></li>
+			<li><a onclick="ChangeTab('tab-other');return false;" href="">Other</a></li>
+		</ul>
+		<img src="WebContent/resources/images/header.png" />
+	</div>	
+	<!-- 表示するコンテンツ -->
+	<div id="body-wrap">
+		<div class="content-wrap" id="tab-home">
+			<div id="page-home"></div>
+		</div>
+		<div class="content-wrap" id="tab-drawing">
+			<div id="page-drawing"></div>
+		</div>
+		<div class="content-wrap" id="tab-software">
+			<div id="page-software"></div>
+		</div>
+		<div class="content-wrap" id="tab-other">
+			<div id="page-other"></div>
+		</div>
+	</div>
+	
+	<!-- デフォルトでホームを表示する -->
+	<script type="text/javascript"><!--
+		ChangeTab('tab-home'); // デフォルトのタブを選択
+		// -->
+	</script>
+	
+	<!-- フッターを表示 -->
+	<div id="footer-wrap">
+		<p>&copy;COPYRIGHT 2016 AOIHON ALL RIGHTS RESERVED. </p>
+	</div>
+</div>
 </body>
 </html>

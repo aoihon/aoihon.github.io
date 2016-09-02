@@ -1,0 +1,14 @@
+@CHARSET "UTF-8";
+
+#footer-wrap{
+  	background-color: #acf;
+	padding-bottom: 1px;
+}
+#footer-wrap p{
+/*	display: table-cell; /* なぜできる??? */
+  	text-decoration: none;
+	text-align: right;
+  	margin-right: 1em;
+  	color: white;
+  	font-family: 'Comic Sans MS';
+}

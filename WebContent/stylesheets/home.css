@@ -1,0 +1,48 @@
+@CHARSET "UTF-8";
+
+#home-wrap{
+	/* width: 80%; */
+	display: block;
+	text-align: center;
+	margin: 1em 7% 2em 7%;	/* 枠外の間隔 */
+	padding: 0px 1em 3em 1em;	/* 枠内の間隔 */
+	border-radius: 5px;			/* 角丸四角 */
+	-webkit-border-radius: 5px;	/* Safari,Google Chrome用 */
+	-moz-border-radius: 5px;	/* Firefox用 */
+	border-style: solid;
+	border-color: #acf;
+	background-color: #fcfafa;
+}
+
+
+#home-wrap h2, #home-wrap dt{
+	margin-top: 1.5em;
+	margin-bottom: 1em;
+	margin-top: 2em;
+  	font-family: 'Comic Sans MS';
+  	text-shadow: 1px 1px 3px #aaa;
+}
+#home-wrap dt{
+	font-size: 150%;
+	font-weight: bold;
+}
+
+#home-wrap p{
+	font-size: 120%;
+	line-height: 200%;
+}
+
+#home-wrap dd{
+	display: inline-block;
+	border-radius: 10px;			/* 角丸四角 */
+	-webkit-border-radius: 10px;	/* Safari,Google Chrome用 */
+	-moz-border-radius: 10px;		/* Firefox用 */
+	padding: 0 10px 0 10px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	background-color: #acf;
+	color: white;
+	line-height: 150%;
+	font-size: 120%;
+}
+

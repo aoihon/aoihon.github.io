@@ -1,0 +1,35 @@
+@CHARSET "UTF-8";
+
+/* メニューのデザイン */
+#header-wrap ul{
+/*	padding:0;*/
+	width: 100%;
+	position: fixed;
+	list-style: none;
+	font-size: 0;
+	z-index: 9999;
+}
+#header-wrap li{
+	display: inline-block;
+	width: 25%;
+	height: 30px;
+	font-size: 20px;
+  	background-color: #acf;
+  	font-family: 'Comic Sans MS';
+  	color: white;
+  	text-align: center;
+  	text-shadow: 1px 1px 3px #222;
+}
+#header-wrap a{
+	display: block;
+	text-decoration: none;
+	color: white;
+  	border-right: 1px solid #fff;
+}
+
+/* ヘッダー画像 */
+#header-wrap img{
+	width: 100%;
+	border-bottom: 10px groove #888; 
+}
+

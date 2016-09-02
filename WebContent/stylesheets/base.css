@@ -1,0 +1,22 @@
+@CHARSET "UTF-8";
+
+html{
+	background-color: #eceaea;
+}
+
+/* reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{
+	margin:0; padding:0;
+}
+
+#header-wrap, #body-wrap, #footer-wrap{
+	position: relative;
+	display: block;
+}
+
+/* コンテンツ部分を最低でも500pxの高さにする設定 */
+#body-wrap{
+	min-height:500px;
+	height:auto !important;
+	height:500px;
+}

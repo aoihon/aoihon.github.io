@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<introductions>
+	<special-like>
+		<title>特に好きなもの</title>
+		<item>エレクトロサチュレイタ</item>
+		<item>アリス・カータレット</item>
+		<item>初音ミク</item>
+		<item>Minecraft</item>
+		<item>Twitter</item>
+	</special-like>
+	<like>
+		<title>好きな作品</title>
+		<item>ノゲノラ</item>
+		<item>このすば</item>
+		<item>うまるちゃん</item>
+		<item>キルラキル</item>
+		<item>君の名は。</item>
+		<item>サマーウォーズ</item>
+		<item>Steins;Gate</item>
+		<item>きんモザ</item>
+		<item>がるぱん</item>
+		<item>ごちうさ</item>
+		<item>日常</item>
+		<item>らきすた</item>
+		<item>この美術部</item>
+		<item>Civilization Ⅴ</item>
+		<item>超電磁砲</item>
+		<item>禁書目録</item>
+		<item>ケロロ軍曹</item>
+		<item>ボカロ</item>
+		<item>ポケモン</item>
+		<item>モンハン</item>
+		<item>スプラトゥーン</item>
+		<item>東方</item>
+		<item>テイルズ</item>
+	</like>
+	<develop>
+		<title>開発</title>
+		<item>Java</item>
+		<item>C/C++</item>
+		<item>C#</item>
+		<item>PHP</item>
+		<item>JavaServlet</item>
+		<item>HTML</item>
+		<item>CSS</item>
+		<item>JavaScript</item>
+		<item>MySQL</item>
+		<item>Android</item>
+		<item>Unity3D</item>
+	</develop>
+</introductions>
